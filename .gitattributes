@@ -7,7 +7,7 @@ import { motion } from "framer-motion"; import { ArrowLeft, Mail, Phone, MapPin,
 
 {/* 內容區塊 */} {/* 聯繫信息 */}
 聯繫方式
-{[ { icon: Mail, label: "電郵", value: "a0939886826@gmail.com", href: "mailto:a0939886826@gmail.com" }, { icon: Phone, label: "電話", value: "+886 9060 70989", href: "tel:+886906070989" }, { icon: MapPin, label: "位置", value: "台灣 · 新北", href: null }, ].map((contact) => { const Icon = contact.icon; return (
+{[ { icon: Mail, label: "電郵", value: "kkk", href: "mailto:a0939886826@gmail.com" }, { icon: Phone, label: "電話", value: "+886 9060 70989", href: "tel:+886906070989" }, { icon: MapPin, label: "位置", value: "台灣 · 新北", href: null }, ].map((contact) => { const Icon = contact.icon; return (
 {contact.label}
 {contact.value}
 
